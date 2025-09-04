@@ -7,7 +7,6 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const cors = require('cors');
 dotenv.config();
-
 //routes import
 const Hero = require('./routes/Hero');
 const OurWorks = require('./routes/OurWorks');
